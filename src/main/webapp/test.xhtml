@@ -13,8 +13,8 @@
     <h:form id="form">
         <h:outputText value="JSFlive composite component empty attribute test"/>
         <br/>
-        <jl:inputTest value="#{testController.testLong}">
-            <f:validator for="input" binding="#{testController.myValidator}"/>
+        <jl:inputTest value="#{testController.longValue}">
+            <f:validator for="input" binding="#{testController.longValidator}"/>
         </jl:inputTest>
         <h:commandButton value="Submit"/>
     </h:form>
