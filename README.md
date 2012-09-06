@@ -6,4 +6,4 @@ There are three ways to start the test application (with different outcomes):
 
 * `mvn jetty:run`: Does not show the error as MyFaces is used in a new version including a fix. Change the MyFaces version to 2.1.3 in the `pom.xml` to actually see the error.
 * `mvn jetty:run -P mojarra`: Shows the error as Mojarra 2.1 is used.
-* `mvn jetty:run -P mojarra22`: Does not show the error as a shansphot of Mojarra 2.2 is used including a fix.
+* `mvn jetty:run -P mojarra22`: Does not show the error as a snapshot of Mojarra 2.2 is used including a fix.
