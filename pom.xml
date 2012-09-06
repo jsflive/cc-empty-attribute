@@ -59,6 +59,27 @@
                 </dependency>
             </dependencies>
         </profile>
+        <profile>
+            <id>mojarra22</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>com.sun.faces</groupId>
+                    <artifactId>jsf-api</artifactId>
+                    <version>${mojarra22.version}</version>
+                    <scope>compile</scope>
+                </dependency>
+
+                <dependency>
+                    <groupId>com.sun.faces</groupId>
+                    <artifactId>jsf-impl</artifactId>
+                    <version>${mojarra22.version}</version>
+                    <scope>compile</scope>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
 
     <dependencies>
@@ -103,5 +124,6 @@
     <properties>
         <myfaces.version>2.1.8</myfaces.version>
         <mojarra.version>2.1.11</mojarra.version>
+        <mojarra22.version>2.2.0-m05</mojarra22.version>
     </properties>
 </project>
