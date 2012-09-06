@@ -1,6 +1,9 @@
-This a test for the behavior of JSF 2 composite component attributes with empty values. In some cases empty attributes can lead to unexpected behavior.
+This a test for the behavior of JSF 2 composite component attributes with empty values as presented
+on a [JSFlive post](http://jsflive.wordpress.com/2012/09/06/cc-pitfalls-empty-attributes). In some
+cases empty attributes can lead to unexpected behavior.
 
-The problem only occurs with MyFaces before version 2.0.10 or 2.1.4 and apparently on any 2.0 and 2.1 version of Mojarra.
+The problem only occurs with MyFaces before version 2.0.10 or 2.1.4 and apparently on any 2.0 and
+2.1 version of Mojarra.
 
 There are three ways to start the test application (with different outcomes):
 
