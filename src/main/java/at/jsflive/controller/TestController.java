@@ -30,6 +30,6 @@ public class TestController {
                 throw new ValidatorException(new FacesMessage("error"));
             }
         }
-    };
+    }
 
 }

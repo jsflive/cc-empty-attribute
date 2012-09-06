@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
         xmlns:h="http://java.sun.com/jsf/html"
-        xmlns:f="http://java.sun.com/jsf/core"
-        xmlns:cc="http://java.sun.com/jsf/composite">
-<head>
-    <title>A collapsible panel composite component</title>
-</head>
-<body>
-<cc:interface>
-    <cc:attribute name="value"/>
-    <cc:editableValueHolder name="input"/>
-</cc:interface>
-<cc:implementation>
-    <h:inputText id="input" value="#{cc.attrs.value}"/>
-</cc:implementation>
-</body>
-</html>
+        xmlns:cc="http://java.sun.com/jsf/composite"
+        xmlns:ui="http://java.sun.com/jsf/facelets">
+
+    <cc:interface>
+        <cc:attribute name="value"/>
+        <cc:editableValueHolder name="input"/>
+    </cc:interface>
+
+    <cc:implementation>
+        <h:inputText id="input" value="#{cc.attrs.value}"/>
+    </cc:implementation>
+
+</ui:composition>
